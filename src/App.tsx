@@ -6,6 +6,8 @@ import Skills from './component/Skills';
 import Project from './component/Project';
 import Footer from './component/Footer';
 import Mazda from './img/Снимок экрана 2023-12-07 221515.png';
+import Qentare from './img/Снимок экрана 2023-12-22 130035.png';
+import Transcard from './img/Снимок экрана 2023-12-22 125254.png';
 import Explorer from './img/Снимок экрана 2023-12-07 221941.png';
 import OilProduct from './img/Снимок экрана 2023-12-07 222404.png';
 import Bonus from './img/Снимок экрана 2023-12-07 230023.png';
@@ -122,6 +124,16 @@ const App: React.FC = () => {
   ];
 
   const projectsData = [
+    {
+      href: 'https://www.transcard.com/',
+      img: Transcard,
+      title: 'Transcard',
+    },
+    {
+      href: 'https://app.qentare.com/',
+      img: Qentare,
+      title: 'Qentare',
+    },
     {
       href: 'https://valtar1999.github.io/Mazda/',
       img: Mazda,
