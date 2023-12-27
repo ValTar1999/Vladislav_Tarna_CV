@@ -17,6 +17,7 @@ import LetsDispatch from './img/Снимок экрана 2023-12-17 232206.png'
 import CreativeScroll from './img/Снимок экрана 2023-12-17 232349.png';
 import BeautifulWorld from './img/Снимок экрана 2023-12-17 232523.png';
 import FairyForest from './img/Снимок экрана 2023-12-17 232658.png';
+import Dashboard from './img/Снимок экрана 2023-12-27 221628.png';
 import Photo from './img/photo.png';
 import Linkedin from './img/icons8-linkedin.svg';
 import GitHub from './img/icons8-github.svg';
@@ -183,6 +184,11 @@ const App: React.FC = () => {
       href: 'https://valtar1999.github.io/Fairy-Forest/',
       img: FairyForest,
       title: 'Fairy-Forest',
+    },
+    {
+      href: 'https://valtar1999.github.io/Dashboard/',
+      img: Dashboard,
+      title: 'Dashboard',
     },
   ];
 
