@@ -34,6 +34,7 @@ import Tailwind from './img/icons8-tailwindcss.svg';
 import Sketchup from './img/icons8-google-sketchup.svg';
 import Hubspot from './img/hubspot-1.svg';
 import Azure from './img/icons8-azure.svg';
+import HTML from './img/icons8-html-logo.svg'
 import { motion, useScroll } from "framer-motion";
 
 const App: React.FC = () => {
@@ -121,6 +122,11 @@ const App: React.FC = () => {
       icon: Azure,
       title: 'Azure',
       subtitle: 'Microsoft Azure, formerly known as Windows Azure, is Microsoft`s public cloud computing platform. It provides a broad range of cloud services, including compute, analytics, storage and networking. Users can pick and choose from these services to develop and scale new applications or run existing applications in the public cloud.',
+    },
+    {
+      icon: HTML,
+      title: 'HTML',
+      subtitle: 'The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.',
     },
   ];
 
