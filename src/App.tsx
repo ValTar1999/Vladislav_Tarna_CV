@@ -42,22 +42,22 @@ const App: React.FC = () => {
   const items = [
     {
       number: '01',
-      title: 'Arama R (4 years 7 months)',
+      title: 'Arama R (May 2018 - Nov.2022)',
       subtitle: 'Tehnolog developer: Engineering & Project Management',
     },
     {
       number: '02',
-      title: 'SRL TARASENCO VLADIMIR (freelance) (1 years 1 months)',
+      title: 'SRL TARASENCO VLADIMIR (freelance) (Nov. 2021 - Nov. 2022)',
       subtitle: 'Frontend Developer: Implementation of projects & Development & user interface & Web development',
     },
     {
       number: '03',
-      title: 'Let`s Dispatch (5 months)',
+      title: 'Let`s Dispatch (Nov. 2022 - March 2023)',
       subtitle: 'Web Developer: Implementation of projects & Development & user interface & Web development',
     },
     {
       number: '04',
-      title: 'Agile Partners (10 months-...)',
+      title: 'Agile Partners (March 2023 - present)',
       subtitle: 'Web Developer: Implementation of projects & Development & user interface & Web development',
     },
   ];
