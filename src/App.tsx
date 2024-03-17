@@ -220,7 +220,7 @@ const App: React.FC = () => {
     },
     {
       icon: GitHub,
-      href: 'https://www.linkedin.com/in/vladislav-tarna-95a81a249/',
+      href: 'https://github.com/ValTar1999',
       text: 'ValTar1999',
     },
     {
