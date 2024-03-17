@@ -47,7 +47,7 @@ const Project: React.FC<ProjectProps> = ({ projects }) => {
             transition={{ duration: 0.6, delay: index * 0.1 }}
           >
             <motion.img
-              className='w-full h-40 object-cover group-hover:scale-105 transition-scale duration-300'
+              className='w-full h-52 object-cover group-hover:scale-105 transition-scale duration-300'
               src={project.img}
               alt=""
               initial={{ opacity: 0 }}

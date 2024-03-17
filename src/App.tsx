@@ -5,6 +5,9 @@ import Banner from './component/Banner';
 import Skills from './component/Skills';
 import Project from './component/Project';
 import Footer from './component/Footer';
+
+import EcoFermaDonCip from './img/Снимок экрана 2024-03-16 180110.png';
+import LoremIpsum_Net from './img/Снимок экрана 2024-03-16 180217.png';
 import Mazda from './img/Снимок экрана 2023-12-07 221515.png';
 import Qentare from './img/Снимок экрана 2023-12-22 130035.png';
 import Transcard from './img/Снимок экрана 2023-12-22 125254.png';
@@ -18,6 +21,7 @@ import CreativeScroll from './img/Снимок экрана 2023-12-17 232349.pn
 import BeautifulWorld from './img/Снимок экрана 2023-12-17 232523.png';
 import FairyForest from './img/Снимок экрана 2023-12-17 232658.png';
 import Dashboard from './img/Снимок экрана 2023-12-27 221628.png';
+
 import Photo from './img/photo.png';
 import Linkedin from './img/icons8-linkedin.svg';
 import GitHub from './img/icons8-github.svg';
@@ -132,6 +136,11 @@ const App: React.FC = () => {
 
   const projectsData = [
     {
+      href: 'https://valtar1999.github.io/EcoFerma-DonCip-main/',
+      img: EcoFermaDonCip,
+      title: 'EcoFermaDonCip',
+    },
+    {
       href: 'https://www.transcard.com/',
       img: Transcard,
       title: 'Transcard',
@@ -140,6 +149,11 @@ const App: React.FC = () => {
       href: 'https://app.qentare.com/',
       img: Qentare,
       title: 'Qentare',
+    },
+    {
+      href: 'https://app.qentare.com/',
+      img: LoremIpsum_Net,
+      title: 'LoremIpsum.Net',
     },
     {
       href: 'https://valtar1999.github.io/Mazda/',
