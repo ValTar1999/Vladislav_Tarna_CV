@@ -151,7 +151,7 @@ const App: React.FC = () => {
       title: 'Qentare',
     },
     {
-      href: 'https://app.qentare.com/',
+      href: 'https://valtar1999.github.io/LoremIpsum.Net/',
       img: LoremIpsum_Net,
       title: 'LoremIpsum.Net',
     },
