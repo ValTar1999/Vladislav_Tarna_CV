@@ -151,29 +151,9 @@ const App: React.FC = () => {
       title: 'Qentare',
     },
     {
-      href: 'https://valtar1999.github.io/LoremIpsum.Net/',
-      img: LoremIpsum_Net,
-      title: 'LoremIpsum.Net',
-    },
-    {
       href: 'https://valtar1999.github.io/Mazda/',
       img: Mazda,
       title: 'Mazda',
-    },
-    {
-      href: 'https://valtar1999.github.io/Explorer/',
-      img: Explorer,
-      title: 'Explorer',
-    },
-    {
-      href: 'https://valtar1999.github.io/Oil-product/',
-      img: OilProduct,
-      title: 'Oil-product',
-    },
-    {
-      href: 'https://valtar1999.github.io/Bonus/',
-      img: Bonus,
-      title: 'Bonus',
     },
     {
       href: 'https://valtar1999.github.io/Porsche-Models/',
@@ -184,11 +164,6 @@ const App: React.FC = () => {
       href: 'https://valtar1999.github.io/Aperture-Studios/',
       img: ApertureStudios,
       title: 'Aperture-Studios',
-    },
-    {
-      href: 'https://valtar1999.github.io/Let-s-dispatch/',
-      img: LetsDispatch,
-      title: 'Let`s-dispatch',
     },
     {
       href: 'https://valtar1999.github.io/Creative-scroll/',
@@ -209,6 +184,31 @@ const App: React.FC = () => {
       href: 'https://valtar1999.github.io/Dashboard/',
       img: Dashboard,
       title: 'Dashboard',
+    },
+    {
+      href: 'https://valtar1999.github.io/LoremIpsum.Net/',
+      img: LoremIpsum_Net,
+      title: 'LoremIpsum.Net',
+    },
+    {
+      href: 'https://valtar1999.github.io/Explorer/',
+      img: Explorer,
+      title: 'Explorer',
+    },
+    {
+      href: 'https://valtar1999.github.io/Oil-product/',
+      img: OilProduct,
+      title: 'Oil-product',
+    },
+    {
+      href: 'https://valtar1999.github.io/Bonus/',
+      img: Bonus,
+      title: 'Bonus',
+    },
+    {
+      href: 'https://valtar1999.github.io/Let-s-dispatch/',
+      img: LetsDispatch,
+      title: 'Let`s-dispatch',
     },
   ];
 
@@ -239,6 +239,13 @@ const App: React.FC = () => {
         className="fixed top-0 left-0 right-0 h-2 bg-yellow-500/80 z-50 origin-top-left"
         style={{ scaleX: scrollYProgress }}
       />
+      <div className="fixed bottom-8 right-1/2 z-50 ">
+        <a href="#Footer">
+          <svg className="animate-bounce w-8 h-8 text-yellow-500/80 border border-yellow-500/80 rounded-full p-1 backdrop-opacity-10 backdrop-invert bg-yellow/30" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
+      </div>
       <Header 
         foto={Photo} 
         title="I'm Tarna Vladislav. A Web Developer." 
@@ -251,7 +258,9 @@ const App: React.FC = () => {
       />
       <Skills skills={skillsData} />
       <Project projects={projectsData} />
-      <Footer items={link} />
+      <div id="Footer">
+        <Footer items={link} />
+      </div>
     </div>
   );
 };
