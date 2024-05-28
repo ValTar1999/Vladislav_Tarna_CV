@@ -21,6 +21,11 @@ import CreativeScroll from './img/Снимок экрана 2023-12-17 232349.pn
 import BeautifulWorld from './img/Снимок экрана 2023-12-17 232523.png';
 import FairyForest from './img/Снимок экрана 2023-12-17 232658.png';
 import Dashboard from './img/Снимок экрана 2023-12-27 221628.png';
+import MiamiSwiper from './img/Снимок экрана 2024-05-28 212432.png';
+import PhotographyPortfolio from './img/Снимок экрана 2024-05-28 213046.png';
+import NBU from './img/Снимок экрана 2024-05-28 213449.png';
+import applewatch from './img/Снимок экрана 2024-05-28 213230.png';
+import nokoSocial from './img/Снимок экрана 2024-05-28 214745.png';
 
 import Photo from './img/photo.png';
 import Linkedin from './img/icons8-linkedin.svg';
@@ -179,6 +184,31 @@ const App: React.FC = () => {
       href: 'https://valtar1999.github.io/Fairy-Forest/',
       img: FairyForest,
       title: 'Fairy-Forest',
+    },
+    {
+      href: 'https://valtar1999.github.io/Miami_Swiper/',
+      img: MiamiSwiper,
+      title: 'Miami_Swiper',
+    },
+    {
+      href: 'https://valtar1999.github.io/Photography_Portfolio/',
+      img: PhotographyPortfolio,
+      title: 'Photography Portfolio',
+    },
+    {
+      href: 'https://valtar1999.github.io/NBU/',
+      img: NBU,
+      title: 'NBU',
+    },
+    {
+      href: 'https://valtar1999.github.io/apple-watch/',
+      img: applewatch,
+      title: 'APPLE WATCH',
+    },
+    {
+      href: 'https://valtar1999.github.io/Social-Media/',
+      img: nokoSocial,
+      title: 'nokoSocial',
     },
     {
       href: 'https://valtar1999.github.io/Dashboard/',
