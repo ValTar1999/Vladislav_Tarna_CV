@@ -44,6 +44,8 @@ import Sketchup from './img/icons8-google-sketchup.svg';
 import Hubspot from './img/hubspot-1.svg';
 import Azure from './img/icons8-azure.svg';
 import HTML from './img/icons8-html-logo.svg'
+import Telegram from './img/telegram.svg';
+import WhatsApp from './img/wthatapp.svg';
 import { motion, useScroll } from "framer-motion";
 
 const App: React.FC = () => {
@@ -258,6 +260,16 @@ const App: React.FC = () => {
       href: 'mailto:www.vladtarna25@gmail.com',
       text: 'www.vladtarna25@gmail.com',
     },
+    {
+      icon: Telegram,
+      href: 'https://t.me/+37379779557',
+      text: 'Telegram',
+    },
+    {
+      icon: WhatsApp,
+      href: 'https://wa.me/+37379779557',
+      text: 'WhatsApp',
+    },
   ]
 
   const { scrollYProgress } = useScroll();
@@ -269,9 +281,9 @@ const App: React.FC = () => {
         className="fixed top-0 left-0 right-0 h-2 bg-yellow-500/80 z-50 origin-top-left"
         style={{ scaleX: scrollYProgress }}
       />
-      <div className="fixed bottom-8 right-1/2 z-50 ">
+      <div className="fixed bottom-8 right-4 md:right-10 lg:right-16 z-50">
         <a href="#Footer">
-          <svg className="animate-bounce w-8 h-8 text-yellow-500/80 border border-yellow-500/80 rounded-full p-1 backdrop-opacity-10 backdrop-invert bg-yellow/30" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="animate-bounce w-10 h-10 xl:w-12 xl:h-12 text-yellow-500/80 border border-yellow-500/80 rounded-full p-1 backdrop-opacity-10 backdrop-invert bg-yellow/30" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
             <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
           </svg>
         </a>
