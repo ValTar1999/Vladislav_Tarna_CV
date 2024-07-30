@@ -26,6 +26,7 @@ import PhotographyPortfolio from './img/Снимок экрана 2024-05-28 213
 import NBU from './img/Снимок экрана 2024-05-28 213449.png';
 import applewatch from './img/Снимок экрана 2024-05-28 213230.png';
 import nokoSocial from './img/Снимок экрана 2024-05-28 214745.png';
+import Cyberpunk from './img/Cyberpunk.png';
 
 import Photo from './img/photo.png';
 import Linkedin from './img/icons8-linkedin.svg';
@@ -181,6 +182,11 @@ const App: React.FC = () => {
       href: 'https://valtar1999.github.io/Beautiful-World/',
       img: BeautifulWorld,
       title: 'Beautiful-World',
+    },
+    {
+      href: 'https://valtar1999.github.io/Cyberpunk-2077/',
+      img: Cyberpunk,
+      title: 'Cyberpunk 2077',
     },
     {
       href: 'https://valtar1999.github.io/Fairy-Forest/',

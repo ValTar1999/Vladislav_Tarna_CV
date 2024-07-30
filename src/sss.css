@@ -1,0 +1,256 @@
+#onetrust-consent-sdk #onetrust-pc-sdk {
+  background: #FFFFFF !important;
+}
+
+.ot-pc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #D5DBEA;
+  padding: 24px !important;
+  height: auto !important;
+}
+
+.ot-pc-header .ot-pc-logo {
+  height: 25px !important;
+}
+
+.ot-pc-header .ot-close-icon {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.ot-pc-scrollbar {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding: 32px 24px !important;
+  width: auto !important;
+}
+
+.ot-pc-scrollbar .ot-optout-signal {
+  display: none !important;
+}
+
+#onetrust-pc-sdk #ot-pc-content {
+  position: relative !important;
+  top: 0 !important;
+  bottom: 0 !important;
+}
+
+#onetrust-pc-sdk #ot-pc-title {
+  margin-top: 0 !important;
+  margin-bottom: 12px !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  color: #090C38 !important;
+}
+
+#onetrust-pc-sdk #ot-pc-desc {
+  margin-bottom: 24px !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: #53607E !important;
+}
+
+#accept-recommended-btn-handler {
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  border: 2px solid #FAAE31 !important;
+  border-radius: 100px !important;
+  padding: 10px 20px !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: 0 !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+  background: #FAAE31 !important;
+  opacity: 1 !important;
+  transition: 0.4s ease;
+}
+
+#accept-recommended-btn-handler:focus {
+  outline: none !important;
+}
+
+#accept-recommended-btn-handler:hover {
+  border: 2px solid #090C38 !important;
+  color: #FFFFFF !important;
+  background: #090C38 !important;
+}
+
+.ot-sdk-row ot-cat-grp {
+  display: inline-block;
+}
+
+#onetrust-pc-sdk #ot-category-title {
+  padding-top: 32px;
+  padding-bottom: 20px !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  color: #090C38 !important;
+}
+
+#onetrust-pc-sdk .ot-accordion-layout.ot-cat-item {
+  border: 1px solid #D5DBEA !important;
+  border-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+#onetrust-pc-sdk .ot-accordion-layout.ot-cat-item:first-of-type {
+  margin-top: 0 !important;
+  border-top: 1px solid #D5DBEA !important;
+}
+
+#onetrust-pc-sdk .ot-accordion-layout.ot-cat-item:last-of-type {
+  border-bottom: 1px solid #D5DBEA !important;
+}
+
+#onetrust-pc-sdk .ot-vs-config .ot-acc-hdr {
+  padding: 16px !important;
+  width: auto !important;
+}
+
+#onetrust-pc-sdk .ot-vs-config .ot-acc-hdr div:first-child {
+  margin-left: 0 !important;
+}
+
+#onetrust-pc-sdk .ot-plus-minus {
+  margin-right: 0 !important;
+}
+
+#onetrust-pc-sdk .ot-accordion-layout .ot-cat-header {
+  flex: auto !important;
+  margin: 0 !important;
+  margin-bottom: -4px !important;
+  margin-left: 6px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #090C38 !important;
+}
+
+#onetrust-pc-sdk .ot-vs-config .ot-acc-hdr div:last-child {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+#onetrust-pc-sdk .ot-always-active {
+  margin-top: 0 !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: #53607E !important;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-acc-grpcntr.ot-acc-txt {
+  background: #F7F6F9 !important;
+}
+
+#onetrust-pc-sdk .ot-accordion-layout.ot-cat-item .ot-acc-grpdesc {
+  padding: 16px !important;
+  font-style: normal !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: #53607E !important;
+}
+
+#onetrust-pc-sdk .ot-switch-nob {
+  border: 1px solid transparent !important;
+  border-radius: 18px !important;
+  background: #53607E !important;
+}
+
+#onetrust-pc-sdk .ot-tgl input:checked + .ot-switch .ot-switch-nob {
+  background: #1DBDB6 !important;
+}
+
+#onetrust-pc-sdk .ot-switch-nob::before {
+  border-radius: 18px !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+#onetrust-pc-sdk .ot-switch {
+  height: 23px !important;
+}
+
+#onetrust-pc-sdk .ot-pc-footer {
+  position: absolute !important;
+  z-index: 1;
+  border-top: 1px solid #D5DBEA !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+#onetrust-pc-sdk .ot-btn-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding: 24px !important;
+  background: #FFFFFF !important;
+  gap: 12px !important;
+}
+
+#onetrust-pc-sdk .ot-pc-footer button {
+  margin-top: 0 !important;
+}
+
+#onetrust-pc-sdk .ot-sdk-row {
+  margin-bottom: 100px !important;
+}
+
+#onetrust-pc-sdk .ot-btn-container button {
+  min-width: auto !important;
+}
+
+#onetrust-pc-sdk .ot-pc-footer .ot-btn-container .ot-pc-refuse-all-handler {
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  border: 2px solid #FAAE31 !important;
+  border-radius: 100px !important;
+  padding: 10px 20px !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: 0 !important;
+  text-align: center !important;
+  color: #090C38 !important;
+  background: transparent !important;
+  transition: 0.4s all ease;
+}
+
+#onetrust-pc-sdk .ot-pc-footer .ot-btn-container .ot-pc-refuse-all-handler:hover {
+  color: #FFFFFF !important;
+  background-color: #FAAE31 !important;
+  opacity: 1 !important;
+}
+
+#onetrust-pc-sdk .ot-pc-footer .ot-btn-container .save-preference-btn-handler {
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  border: 2px solid #FAAE31 !important;
+  border-radius: 100px !important;
+  padding: 10px 20px !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: 0 !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+  background: #faae31 !important;
+  transition: 0.4s all ease;
+}
+
+#onetrust-pc-sdk .ot-pc-footer .ot-btn-container .save-preference-btn-handler:hover {
+  border: 2px solid #090C38 !important;
+  color: #FFFFFF !important;
+  background: #090C38 !important;
+  opacity: 1 !important;
+}
