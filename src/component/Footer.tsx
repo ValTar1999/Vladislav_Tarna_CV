@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({items}) => {
             {items.map((item) => (
               <a href={item.href} className="inline-flex items-center gap-4 border-transparent hover:border-yellow-300 border-2 focus:border-yellow-600 py-2 px-3 rounded-lg transition-all duration-500">
                 <img className="w-10" src={item.icon} alt="" />
-                <div className="text-gray-50 text-lg xl:text-xl font-medium">{item.text}</div>
+                <div className="text-gray-50 text-sm xl:text-xl font-medium text-ellipsis overflow-hidden">{item.text}</div>
               </a>
             ))}
           </div>
