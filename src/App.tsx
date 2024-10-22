@@ -28,6 +28,7 @@ import applewatch from './img/Снимок экрана 2024-05-28 213230.png';
 import nokoSocial from './img/Снимок экрана 2024-05-28 214745.png';
 import Cyberpunk from './img/Cyberpunk.png';
 import CircleParallax from './img/Circle-Parallax.png';
+import Cresco from './img/Cresco.png';
 
 import Photo from './img/photo.png';
 import Linkedin from './img/icons8-linkedin.svg';
@@ -144,6 +145,11 @@ const App: React.FC = () => {
   ];
 
   const projectsData = [
+    {
+      href: 'https://www.crescoestate.com/georgia/en-US',
+      img: Cresco,
+      title: 'Cresco',
+    },
     {
       href: 'https://valtar1999.github.io/EcoFerma-DonCip-main/',
       img: EcoFermaDonCip,
