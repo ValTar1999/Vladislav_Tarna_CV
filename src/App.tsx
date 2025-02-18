@@ -29,6 +29,7 @@ import nokoSocial from './img/Снимок экрана 2024-05-28 214745.png';
 import Cyberpunk from './img/Cyberpunk.png';
 import CircleParallax from './img/Circle-Parallax.png';
 import Cresco from './img/Cresco.png';
+import Agora from './img/agora.png';
 
 import Photo from './img/photo.png';
 import Linkedin from './img/icons8-linkedin.svg';
@@ -149,6 +150,11 @@ const App: React.FC = () => {
       href: 'https://www.crescoestate.com/georgia/en-US',
       img: Cresco,
       title: 'Cresco',
+    },
+    {
+      href: 'https://agora.md/',
+      img: Agora,
+      title: 'Agora',
     },
     {
       href: 'https://valtar1999.github.io/EcoFerma-DonCip-main/',
