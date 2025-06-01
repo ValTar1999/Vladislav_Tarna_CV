@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.fd359aa0.css",
-    "main.js": "./static/js/main.e0d52482.js",
+    "main.css": "./static/css/main.7bcb097b.css",
+    "main.js": "./static/js/main.a648d609.js",
     "static/js/787.6dac1136.chunk.js": "./static/js/787.6dac1136.chunk.js",
     "static/media/Cyberpunk.png": "./static/media/Cyberpunk.7ff8e7b6c40ac27de4df.png",
     "static/media/Снимок экрана 2023-12-17 232658.png": "./static/media/Снимок экрана 2023-12-17 232658.8fb7956df97197fde518.png",
@@ -16,6 +16,7 @@
     "static/media/Снимок экрана 2023-12-07 222404.png": "./static/media/Снимок экрана 2023-12-07 222404.7d49e7e798064f3fc4c2.png",
     "static/media/Снимок экрана 2024-05-28 212432.png": "./static/media/Снимок экрана 2024-05-28 212432.b6f1ec4c33f48a473da9.png",
     "static/media/Снимок экрана 2024-05-28 214745.png": "./static/media/Снимок экрана 2024-05-28 214745.9c7c24cd687be11a562d.png",
+    "static/media/agora.png": "./static/media/agora.c62a2409fc2b71cfc62c.png",
     "static/media/Снимок экрана 2024-05-28 213046.png": "./static/media/Снимок экрана 2024-05-28 213046.101b751e8265d4df7156.png",
     "static/media/Cresco.png": "./static/media/Cresco.8f498d51e9040d84567a.png",
     "static/media/Снимок экрана 2023-12-17 232523.png": "./static/media/Снимок экрана 2023-12-17 232523.fe1e612c9304de8593b6.png",
@@ -31,13 +32,13 @@
     "static/media/icons8-sass.svg": "./static/media/icons8-sass.903cef0c9879296f452e2bd0364f58e9.svg",
     "static/media/icons8-astro.svg": "./static/media/icons8-astro.f174b3de403dd996b75223fd157913e4.svg",
     "static/media/icons8-autocad.svg": "./static/media/icons8-autocad.c15b045bede79f0194595b1bc8e8f7d3.svg",
-    "static/media/icons8-azure.svg": "./static/media/icons8-azure.377963e726785f5965123085de9697a1.svg",
     "static/media/wthatapp.svg": "./static/media/wthatapp.a9fb4e4e7292448d3ff0462d2c7b239b.svg",
     "static/media/icons8-github.svg": "./static/media/icons8-github.dc49a960a2d3c5a49c806f6188a7733b.svg",
     "static/media/icons8-bootstrap.svg": "./static/media/icons8-bootstrap.c2b6db5b07dafc23f205980c22be4ab0.svg",
     "static/media/hubspot-1.svg": "./static/media/hubspot-1.ad1a3b742f288d415783ac1798ec5556.svg",
     "static/media/telegram.svg": "./static/media/telegram.87856b79351bb38b2aa2338071087569.svg",
     "static/media/icons8-js.svg": "./static/media/icons8-js.081325c6f229605dce15142ddd948d6d.svg",
+    "static/media/angular-icon.svg": "./static/media/angular-icon.e6ed573fa80c0dc1bf57730930ac0158.svg",
     "static/media/icons8-tailwindcss.svg": "./static/media/icons8-tailwindcss.1ff53afb0748cd483d5f0ed13029f287.svg",
     "static/media/icons8-google-sketchup.svg": "./static/media/icons8-google-sketchup.049fa2534cd0262205a579519b6f5363.svg",
     "static/media/icons8-gmail.svg": "./static/media/icons8-gmail.e1bc2ceb745debf9361ad2160a79823a.svg",
@@ -46,12 +47,13 @@
     "index.html": "./index.html",
     "static/media/icons8-css3.svg": "./static/media/icons8-css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html-logo.svg": "./static/media/icons8-html-logo.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.fd359aa0.css.map": "./static/css/main.fd359aa0.css.map",
-    "main.e0d52482.js.map": "./static/js/main.e0d52482.js.map",
+    "static/media/framer-motion.svg": "./static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
+    "main.7bcb097b.css.map": "./static/css/main.7bcb097b.css.map",
+    "main.a648d609.js.map": "./static/js/main.a648d609.js.map",
     "787.6dac1136.chunk.js.map": "./static/js/787.6dac1136.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd359aa0.css",
-    "static/js/main.e0d52482.js"
+    "static/css/main.7bcb097b.css",
+    "static/js/main.a648d609.js"
   ]
 }
