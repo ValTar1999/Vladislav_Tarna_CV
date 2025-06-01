@@ -204,11 +204,6 @@ const App: React.FC = () => {
       title: 'Qentare',
     },
     {
-      href: 'https://valtar1999.github.io/Mazda/',
-      img: Mazda,
-      title: 'Mazda',
-    },
-    {
       href: 'https://valtar1999.github.io/Porsche-Models/',
       img: PorscheModels,
       title: 'Porsche-Models',
@@ -262,6 +257,11 @@ const App: React.FC = () => {
       href: 'https://valtar1999.github.io/apple-watch/',
       img: applewatch,
       title: 'APPLE WATCH',
+    },
+    {
+      href: 'https://valtar1999.github.io/Mazda/',
+      img: Mazda,
+      title: 'Mazda',
     },
     {
       href: 'https://valtar1999.github.io/Social-Media/',
