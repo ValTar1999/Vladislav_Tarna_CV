@@ -28,7 +28,7 @@ const Skills: React.FC<SkillsProps> = ({ skills }) => {
       >
         <div className="text-3xl lg:text-5xl text-gray-50 font-bold">Skillset</div>
         <div className="text-lg text-gray-500 font-semibold mt-6">
-          With skills in over 4 different fields of programming, I am the perfect person to hire when it comes to a full-fledged project. Whatever your needs are, I can pretty much take on any challenge.
+          With a solid foundation in front-end technologies and a passion for clean, scalable code, I can confidently handle projects of varying complexity — from static landing pages to dynamic, component-driven UIs.
         </div>
       </motion.div>
       <motion.div
@@ -67,7 +67,7 @@ const Skills: React.FC<SkillsProps> = ({ skills }) => {
               initial={{ opacity: 0, x: -20 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.6 }}
-              className="text-base text-gray-500"
+              className="text-base text-gray-300"
             >
               {skill.subtitle}
             </motion.div>

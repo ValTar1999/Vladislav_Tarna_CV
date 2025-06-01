@@ -2,10 +2,18 @@ import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
+interface SubtitleObject {
+  text: string;
+  list?: string[];
+  subtext?: string;
+}
+
+type Subtitle = string | SubtitleObject;
+
 interface WorkExperience {
   number: string;
   title: string;
-  subtitle?: string;
+  subtitle?: Subtitle;
 }
 
 interface ItemsProps {
@@ -39,7 +47,7 @@ const Items: React.FC<ItemsProps> = ({ items }) => {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-4xl md:text-5xl text-gray-50 mt-2 font-semibold max-w-xl"
       >
-        Companies I have worked for in the past.
+        Companies where I work or have worked in the past.
       </motion.div>
       <div className="grid gap-3 md:grid-cols-2" ref={ref}>
         {items.map((item, index) => (
@@ -48,7 +56,7 @@ const Items: React.FC<ItemsProps> = ({ items }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: index * 0.1 + 0.5 }}
-            className="grid gap-3 mt-7"
+            className="flex flex-col space-y-3 mt-7"
           >
             <motion.div
               className="text-gray-400/50 text-8xl"
@@ -67,12 +75,26 @@ const Items: React.FC<ItemsProps> = ({ items }) => {
             </motion.div>
             {item.subtitle && (
               <motion.div
-                className="text-gray-50 text-base font-medium"
+                className=" text-base font-medium"
                 initial={{ opacity: 0 }}
                 animate={inView ? { opacity: 1 } : {}}
                 transition={{ duration: 0.5 }}
               >
-                {item.subtitle}
+                {typeof item.subtitle === 'string' ? (
+                  <p className="text-gray-200">{item.subtitle}</p>
+                ) : item.subtitle ? (
+                  <>
+                    <p className="text-gray-200">{item.subtitle.text}</p>
+                    {item.subtitle.list && item.subtitle.list.length > 0 && (
+                      <ul className="list-disc pl-5 mt-2 space-y-1">
+                        {item.subtitle.list.map((listItem, i) => (
+                          <li key={i} className="whitespace-pre-line text-yellow-200">{listItem}</li>
+                        ))}
+                      </ul>
+                    )}
+                    {item.subtitle.subtext && <p className="mt-2 text-gray-200">{item.subtitle.subtext}</p>}
+                  </>
+                ) : null}
               </motion.div>
             )}
           </motion.div>

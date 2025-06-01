@@ -5,7 +5,9 @@ import Banner from './component/Banner';
 import Skills from './component/Skills';
 import Project from './component/Project';
 import Footer from './component/Footer';
+import { motion, useScroll } from "framer-motion";
 
+// Images
 import EcoFermaDonCip from './img/Снимок экрана 2024-03-16 180110.png';
 import LoremIpsum_Net from './img/Снимок экрана 2024-03-16 180217.png';
 import Mazda from './img/Снимок экрана 2023-12-07 221515.png';
@@ -30,50 +32,75 @@ import Cyberpunk from './img/Cyberpunk.png';
 import CircleParallax from './img/Circle-Parallax.png';
 import Cresco from './img/Cresco.png';
 import Agora from './img/agora.png';
-
 import Photo from './img/photo.png';
-import Linkedin from './img/icons8-linkedin.svg';
-import GitHub from './img/icons8-github.svg';
-import Gmail from './img/icons8-gmail.svg';
-import Astro from './img/icons8-astro.svg';
-import TypeScript from './img/icons8-typescript.svg';
-import JavaScript from './img/icons8-js.svg';
-import AutoCad from './img/icons8-autocad.svg';
-import Bootstrap from './img/icons8-bootstrap.svg';
-import Css from './img/icons8-css3.svg';
-import Reacts from './img/icons8-react.svg';
-import Sass from './img/icons8-sass.svg';
-import Tailwind from './img/icons8-tailwindcss.svg';
-import Sketchup from './img/icons8-google-sketchup.svg';
-import Hubspot from './img/hubspot-1.svg';
-import Azure from './img/icons8-azure.svg';
-import HTML from './img/icons8-html-logo.svg'
-import Telegram from './img/telegram.svg';
-import WhatsApp from './img/wthatapp.svg';
-import { motion, useScroll } from "framer-motion";
+
+// Icons
+import Angular from './img/icons/angular-icon.svg';
+import FramerMotion from './img/icons/framer-motion.svg';
+import Linkedin from './img/icons/icons8-linkedin.svg';
+import GitHub from './img/icons/icons8-github.svg';
+import Gmail from './img/icons/icons8-gmail.svg';
+import Astro from './img/icons/icons8-astro.svg';
+import TypeScript from './img/icons/icons8-typescript.svg';
+import JavaScript from './img/icons/icons8-js.svg';
+import AutoCad from './img/icons/icons8-autocad.svg';
+import Bootstrap from './img/icons/icons8-bootstrap.svg';
+import Css from './img/icons/icons8-css3.svg';
+import Reacts from './img/icons/icons8-react.svg';
+import Sass from './img/icons/icons8-sass.svg';
+import Tailwind from './img/icons/icons8-tailwindcss.svg';
+import Sketchup from './img/icons/icons8-google-sketchup.svg';
+import Hubspot from './img/icons/hubspot-1.svg';
+import HTML from './img/icons/icons8-html-logo.svg'
+import Telegram from './img/icons/telegram.svg';
+import WhatsApp from './img/icons/wthatapp.svg';
 
 const App: React.FC = () => {
 
   const items = [
     {
       number: '01',
-      title: 'Arama R (May 2018 - Nov.2022)',
-      subtitle: 'Tehnolog developer: Engineering & Project Management',
+      title: 'Agile Partners (March 2023 - present)',
+      subtitle: {
+        text: 'I participate in the development and support of both the marketing website and the company\'s main product:',
+        list: [
+          'Marketing website: I develop landing pages and promotional pages on HubSpot CMS using Bootstrap, SCSS, CSS, JavaScript, and Swiper. I ensure adaptability, cross-browser compatibility, and compliance with brand guidelines. I optimize pages for loading speed and SEO.',
+          'Product part: I work with a modern stack: Astro, Vite, Tailwind CSS, TypeScript, JavaScript, React. I create reusable components, ensure high performance, implement interactive elements, and adaptive design.'
+        ],
+        subtext: 'I actively collaborate with the design and marketing teams, suggest UX/UI improvements, and monitor code quality.'
+      },
     },
     {
       number: '02',
-      title: 'SRL TARASENCO VLADIMIR (freelance) (Nov. 2021 - Nov. 2022)',
-      subtitle: 'Frontend Developer: Implementation of projects & Development & user interface & Web development',
+      title: 'Let`s Dispatch (Nov. 2022 - March 2023)',
+      subtitle: {
+        text: 'Developed the Let`s Dispatch web application — a system for managing dispatch tasks. Main stack: PHP, HTML, CSS, JavaScript.',
+        list: [
+          'Manual markup and styling of all interface components.',
+          'Implementation of adaptive layout without frameworks.',
+          'Processing of user input and interactions via Vanilla JavaScript.',
+          'Server logic written in PHP: data sending and processing.',
+        ],
+      },
     },
     {
       number: '03',
-      title: 'Let`s Dispatch (Nov. 2022 - March 2023)',
-      subtitle: 'Web Developer: Implementation of projects & Development & user interface & Web development',
+      title: 'SRL TARASENCO VLADIMIR (freelance) (Nov. 2021 - Nov. 2022)',
+      subtitle: {
+        text: 'I have developed single-page and small-page websites, such as:',
+        list: [
+          'Landing pages — with a focus on conversion',
+          'Portfolio websites — showcasing work and skills',
+          'Personal websites — presenting individuals',
+          'Business card websites and simple company websites — business card websites for companies',
+        ],
+        subtext: 'Technologies: HTML, SCSS, CSS, Tailwind CSS, React, JS, TS, Swiper.',
+      },
     },
     {
       number: '04',
-      title: 'Agile Partners (March 2023 - present)',
-      subtitle: 'Web Developer: Implementation of projects & Development & user interface & Web development',
+      title: 'Arama R (May 2018 - Nov.2022)',
+      subtitle: 'Tehnolog developer: Engineering & Project Management',
     },
   ];
 
@@ -81,17 +108,17 @@ const App: React.FC = () => {
     {
       icon: Astro,
       title: 'Astro',
-      subtitle: 'Astro powers the world`s fastest websites, client-side web apps, dynamic API endpoints, and everything in-between. ',
+      subtitle: 'Creating fast static websites with React component support, configuring routes and layouts, optimizing rendering.',
     },
     {
       icon: TypeScript,
       title: 'TypeScript',
-      subtitle: 'TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale',
+      subtitle: 'Component and data typing, writing safe and readable code, using interfaces and generics.',
     },
     {
       icon: JavaScript,
-      title: 'JavaScript',
-      subtitle: 'JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.',
+      title: 'JavaScript (ES6+)',
+      subtitle: 'Developing interactive logic, working with arrays, events, APIs, using modern language features.',
     },
     {
       icon: AutoCad,
@@ -101,27 +128,27 @@ const App: React.FC = () => {
     {
       icon: Bootstrap,
       title: 'Bootstrap',
-      subtitle: 'Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.',
+      subtitle: 'Quick layout using ready-made components, adaptive grids, customizing standard styles.',
     },
     {
       icon: Css,
       title: 'CSS',
-      subtitle: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.',
+      subtitle: 'Creating responsive and animated layouts, using variables, mixins, and nesting, BEM.',
     },
     {
       icon: Reacts,
       title: 'React',
-      subtitle: 'The library for web and native user interfaces',
+      subtitle: 'Developing interfaces on functional components with hooks, creating custom hooks and reusable blocks, working with forms and lists.',
     },
     {
       icon: Sass,
       title: 'Sass',
-      subtitle: 'Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.',
+      subtitle: 'Creating responsive and animated layouts, using variables, mixins, and nesting, BEM.',
     },
     {
       icon: Tailwind,
       title: 'Tailwind',
-      subtitle: 'Rapidly build modern websites without ever leaving your HTML.',
+      subtitle: 'Styling with utility classes, theme customization, creating responsive and dark/light interfaces without custom CSS.',
     },
     {
       icon: Sketchup,
@@ -131,17 +158,22 @@ const App: React.FC = () => {
     {
       icon: Hubspot,
       title: 'Hubspot',
-      subtitle: 'Software that`s powerful, not overpowering. Seamlessly connect your data, teams, and customers on one customer platform that grows with your business.',
-    },
-    {
-      icon: Azure,
-      title: 'Azure',
-      subtitle: 'Microsoft Azure, formerly known as Windows Azure, is Microsoft`s public cloud computing platform. It provides a broad range of cloud services, including compute, analytics, storage and networking. Users can pick and choose from these services to develop and scale new applications or run existing applications in the public cloud.',
+      subtitle: 'Developing templates, sections, and UI kits, creating pages and components using HubL and admin settings.',
     },
     {
       icon: HTML,
       title: 'HTML',
-      subtitle: 'The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.',
+      subtitle: 'Semantic markup with SEO and accessibility in mind, correct structure of headings and blocks.',
+    },
+    {
+      icon: Angular,
+      title: 'Angular',
+      subtitle: 'Working with components and templates, reactive forms, structural directives, modular architecture.',
+    },
+    {
+      icon: FramerMotion,
+      title: 'Framer Motion',
+      subtitle: 'Creating animations for appearance, scrolling, and user interaction in React applications.',
     },
   ];
 
@@ -157,14 +189,14 @@ const App: React.FC = () => {
       title: 'Agora',
     },
     {
-      href: 'https://valtar1999.github.io/EcoFerma-DonCip-main/',
-      img: EcoFermaDonCip,
-      title: 'EcoFermaDonCip',
-    },
-    {
       href: 'https://www.transcard.com/',
       img: Transcard,
       title: 'Transcard',
+    },
+    {
+      href: 'https://valtar1999.github.io/EcoFerma-DonCip-main/',
+      img: EcoFermaDonCip,
+      title: 'EcoFermaDonCip',
     },
     {
       href: 'https://app.qentare.com/',
@@ -314,7 +346,7 @@ const App: React.FC = () => {
       </div>
       <Header 
         foto={Photo} 
-        title="I'm Tarna Vladislav. A Web Developer." 
+        title="I'm Tarna Vladislav. A Frontend Developer." 
         subtitle="If you have a great project that needs some amazing skills, I’m your guy." 
       />
       <Items items={items} />
