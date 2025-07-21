@@ -33,6 +33,7 @@ import CircleParallax from './img/Circle-Parallax.png';
 import Cresco from './img/Cresco.png';
 import Agora from './img/agora.png';
 import Photo from './img/photo.png';
+import Mobilus from './img/Mobilus.png';
 
 // Icons
 import Angular from './img/icons/angular-icon.svg';
@@ -178,6 +179,11 @@ const App: React.FC = () => {
   ];
 
   const projectsData = [
+    {
+      href: 'https://valtar1999.github.io/Mobilus/',
+      img: Mobilus,
+      title: 'Mobilus',
+    },
     {
       href: 'https://www.crescoestate.com/georgia/en-US',
       img: Cresco,
