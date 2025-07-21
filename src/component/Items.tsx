@@ -49,7 +49,7 @@ const Items: React.FC<ItemsProps> = ({ items }) => {
       >
         Companies where I work or have worked in the past.
       </motion.div>
-      <div className="grid gap-3 md:grid-cols-2" ref={ref}>
+      <div className="grid gap-6 md:grid-cols-2" ref={ref}>
         {items.map((item, index) => (
           <motion.div
             key={index}
