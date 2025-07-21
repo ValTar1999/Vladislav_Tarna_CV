@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7bcb097b.css",
-    "main.js": "./static/js/main.0e2ae936.js",
+    "main.js": "./static/js/main.67591123.js",
     "static/js/787.6dac1136.chunk.js": "./static/js/787.6dac1136.chunk.js",
     "static/media/Cyberpunk.png": "./static/media/Cyberpunk.7ff8e7b6c40ac27de4df.png",
     "static/media/Снимок экрана 2023-12-17 232658.png": "./static/media/Снимок экрана 2023-12-17 232658.8fb7956df97197fde518.png",
@@ -50,11 +50,11 @@
     "static/media/icons8-html-logo.svg": "./static/media/icons8-html-logo.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/framer-motion.svg": "./static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
     "main.7bcb097b.css.map": "./static/css/main.7bcb097b.css.map",
-    "main.0e2ae936.js.map": "./static/js/main.0e2ae936.js.map",
+    "main.67591123.js.map": "./static/js/main.67591123.js.map",
     "787.6dac1136.chunk.js.map": "./static/js/787.6dac1136.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bcb097b.css",
-    "static/js/main.0e2ae936.js"
+    "static/js/main.67591123.js"
   ]
 }
